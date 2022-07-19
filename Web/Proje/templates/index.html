@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title>Sarılık Tespiti</title>
+		<link rel="stylesheet" type="text/css" href="../static/style/style.css">	
+		<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<style>
+			
+		</style>
+	</head>
+	
+	<body>
+		<h1>SARILIK TESPİTİ</h1> 
+		<div id="div">
+			<div>
+				<canvas id="imgCanvas"></canvas>
+				<img src="" id="imgPreview">
+			</div>
+			
+			<div>
+				<div id="divSide">
+					<text id="text1">Sarılık</text>
+					<div id="progressBackgroung1">
+						<div id="progressBar1"></div>
+					</div>
+					
+					<text id="text2">Normal</text>
+					<div id="progressBackgroung2">
+						<div id="progressBar2"></div>
+					</div>
+					<div id="divUpload">
+					  <button id="btnUpload">Görüntü Al</button>
+					  <input type="file" id="btnImageSelect" />
+					</div>
+				</div>				
+			</div>
+			
+			<div id="divResult">
+				<h4>Sonuç</h4>
+				<p id="pPredict"></p>
+			</div>
+		</div>
+	</body>
+	<script src="../static/script/detection.js"></script>
+</html>

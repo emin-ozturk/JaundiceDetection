@@ -1,0 +1,104 @@
+h1 {
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+body{
+	position: relative;
+	top: 10%;
+}
+#div {
+	background-color: #00bcd40a;
+	position: relative;
+	width: 800px;
+	height: 280px;
+	border-radius: 10px;
+	margin:auto;
+	display: flex;
+    align-items: center;
+	padding-left: 50px;
+}
+#progressBackgroung1 {
+    width: 224px;
+	background-color: #FCD2DC;
+	margin-bottom: 15px;
+	border-radius: 6px;
+}
+#progressBar1 {
+    width: 0%;
+	height: 20px;
+	background-color: #C62848;
+	border-radius: 6px;
+}
+#progressBackgroung2 {
+    width: 224px;
+	background-color: #D2EDFC;
+	border-radius: 6px;
+}
+#progressBar2 {
+    width: 0%;
+	height: 20px;
+	background-color: #287FC6;
+	border-radius: 6px;
+}
+#divSide {
+    width: 224px;
+	margin-left: 60px;
+}
+#imgCanvas {
+	border: 1px solid #ccc;				
+	width: 224px;
+	height: 224px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#imgPreview {
+	display: none;
+}
+#text1, #text2 {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#divUpload {
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	margin-top: 30px;
+	cursor:pointer;
+}
+#btnUpload {
+	border: 1px solid gray;
+	color: #009688;
+	background-color: #fff;
+	padding: 8px 20px;
+	border-radius:5px;
+	font-size: 14px;
+	font-weight: bold;
+	width: 224px;
+	cursor:pointer;
+}
+#divUpload input[type=file] {
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	cursor:pointer;
+} 
+#btnImageSelect {
+	width: 224px;
+	height: 35px;
+}
+#divResult {
+	margin: 0px 15px 0px 40px;
+	width: 300px;
+	height: 200px
+}
+#pPredict {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: -15px;
+}
+h4 {
+	font-family: Arial, Helvetica, sans-serif;
+}
